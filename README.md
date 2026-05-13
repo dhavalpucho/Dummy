@@ -10,6 +10,7 @@ A simple, lightweight single page application (SPA) built with vanilla HTML, CSS
 - 📋 **Contact Form** - Functional contact form with validation
 - ⚡ **No Dependencies** - Pure vanilla JavaScript, no frameworks needed
 - 🚀 **Fast & Lightweight** - Minimal code, maximum performance
+- 🔍 **SEO Ready** - Google Site Verification meta tag included
 
 ## Project Structure
 
@@ -29,6 +30,7 @@ Dummy/
 - Contains three pages: Home, About, Contact
 - Navigation buttons to switch between pages
 - Contact form with input fields and submit button
+- Google Site Verification meta tag for SEO
 
 ### styles.css
 - Professional gradient design (purple theme)

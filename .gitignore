@@ -1,13 +1,35 @@
-.DS_Store
+# IDE and Editor files
 .vscode/
 .idea/
-*.log
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+.windows-thumbnail.db
+
+# Node modules
 node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build and dist files
 dist/
 build/
-*.swp
-*.swo
-*~
+out/
+
+# Environment variables
 .env
 .env.local
 .env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Package lock files (optional)
+package-lock.json
+yarn.lock
