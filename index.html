@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="ts4tfJZneVxJOkxWWk6SPS5Irxt03t4PVFjn8-eppRM" />
+    <title>Dummy Single Page Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Dummy SPA</h1>
+            <nav>
+                <button class="nav-btn" data-page="home">Home</button>
+                <button class="nav-btn" data-page="about">About</button>
+                <button class="nav-btn" data-page="contact">Contact</button>
+            </nav>
+        </header>
+
+        <main id="app">
+            <div id="home" class="page active">
+                <h2>Home</h2>
+                <p>Welcome to this dummy single page application built with HTML, CSS, and JavaScript.</p>
+                <p>Use the navigation buttons above to explore different sections.</p>
+            </div>
+
+            <div id="about" class="page">
+                <h2>About</h2>
+                <p>This is a simple single page application (SPA) demonstration.</p>
+                <p>It showcases basic navigation between different sections without page reloads.</p>
+                <ul>
+                    <li>Built with vanilla HTML, CSS, and JavaScript</li>
+                    <li>No external frameworks or dependencies</li>
+                    <li>Lightweight and fast</li>
+                </ul>
+            </div>
+
+            <div id="contact" class="page">
+                <h2>Contact</h2>
+                <p>Get in touch with us using the form below:</p>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <div id="formMessage"></div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Dummy SPA. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
